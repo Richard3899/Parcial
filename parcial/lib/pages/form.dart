@@ -340,7 +340,7 @@ class _FechaState extends State<Fecha> {
                 child: Icon(FontAwesomeIcons.calendarAlt,color: Colors.white))),
 
 
-        hintText: 'Fecha de Nacimiento',
+        hintText: 'DD / MM / YYYY',
         border: OutlineInputBorder(
           borderRadius: BorderRadius.circular(20)
         )
@@ -456,7 +456,7 @@ class Boton extends StatelessWidget {
         
         borderRadius: new BorderRadius.circular(10.0),
       ),
-      child: new Center(child: new Text('Save', style: new TextStyle(fontSize: 18.0, color: Colors.white),),),
+      child: new Center(child: new Text('SAVE', style: new TextStyle(fontSize: 18.0, color: Colors.white),),),
   ),
       
       
